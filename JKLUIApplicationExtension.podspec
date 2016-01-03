@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "JKLUIApplicationExtension"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JKLUIApplicationExtension."
+  s.summary          = "A simple UIApplication extension to speed up developments"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JKLUIApplicationExtension"
+  s.homepage         = "https://github.com/jiakai-lian/JKLUIApplicationExtension"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jacky" => "Jiakai.lian@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JKLUIApplicationExtension.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/jiakai-lian/JKLUIApplicationExtension.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'JKLThreadSafeMutableCollection', '~> 0.1.0'
+  s.dependency 'JKLThreadSafeMutableCollection', '0.1.0'
 end
