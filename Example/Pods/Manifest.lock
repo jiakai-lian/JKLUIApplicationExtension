@@ -1,5 +1,7 @@
 PODS:
-  - JKLUIApplicationExtension (0.1.0)
+  - JKLThreadSafeMutableCollection (0.1.0)
+  - JKLUIApplicationExtension (0.1.0):
+    - JKLThreadSafeMutableCollection (~> 0.1.0)
 
 DEPENDENCIES:
   - JKLUIApplicationExtension (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JKLUIApplicationExtension: bc0649d2af38a98122e05888de0a957f19dd563c
+  JKLThreadSafeMutableCollection: 0a913ae286fdb8963c7d1b5cbb46079e3f542597
+  JKLUIApplicationExtension: dd529c1fd09c487a0f0a01d33d619596438c8fdc
 
 COCOAPODS: 0.39.0

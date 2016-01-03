@@ -21,5 +21,10 @@
     "JKLUIApplicationExtension": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "JKLThreadSafeMutableCollection": [
+      "~> 0.1.0"
+    ]
   }
 }

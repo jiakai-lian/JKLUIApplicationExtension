@@ -10,4 +10,5 @@
 
 @interface JKLInstanceProvider : NSObject
 
+- (id)instanceForClass:(Class)cls;
 @end

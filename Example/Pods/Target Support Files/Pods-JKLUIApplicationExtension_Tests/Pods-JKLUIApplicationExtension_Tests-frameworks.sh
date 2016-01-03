@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-JKLUIApplicationExtension_Tests/JKLThreadSafeMutableCollection.framework"
   install_framework "Pods-JKLUIApplicationExtension_Tests/JKLUIApplicationExtension.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-JKLUIApplicationExtension_Tests/JKLThreadSafeMutableCollection.framework"
   install_framework "Pods-JKLUIApplicationExtension_Tests/JKLUIApplicationExtension.framework"
 fi

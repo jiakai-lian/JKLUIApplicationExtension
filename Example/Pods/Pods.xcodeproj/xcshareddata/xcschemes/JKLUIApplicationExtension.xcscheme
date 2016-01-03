@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D177E8690B4AEA86C69D99E8'
+               BlueprintIdentifier = '9BBC8235CEED7852F9426952'
                BlueprintName = 'JKLUIApplicationExtension'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'JKLUIApplicationExtension.framework'>
