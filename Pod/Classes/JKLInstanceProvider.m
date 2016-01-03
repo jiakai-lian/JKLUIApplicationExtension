@@ -26,13 +26,17 @@
 }
 
 - (instancetype)instanceForClass:(Class)cls {
-  NSString* key = NSStringFromClass(cls);
-  id instance = [self.dictionary objectForKey:key];
-  if (!instance) {
-    instance = [[cls alloc] init];
-    [self.dictionary setObject:instance forKey:key];
-  }
-  return instance;
+  return [self.dictionary objectForKey:NSStringFromClass(cls)];
+}
+
+- (void)setInstanceForClass:(Class)cls withObject:(id)object
+{
+    [self.dictionary setObject:object forKey:NSStringFromClass(cls)];
+}
+
+- (void)removeInstanceForClass:(Class)cls
+{
+    [self.dictionary removeObjectForKey:NSStringFromClass(cls)];
 }
 
 @end

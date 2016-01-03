@@ -47,10 +47,16 @@
 
 - (void)testInstanceForClass
 {
-    NSObject * sharedObject = [[UIApplication jkl_instanceProvider] instanceForClass:[NSObject class]];
+    NSObject * sharedObject = [[NSObject alloc] init];
+    [[UIApplication jkl_instanceProvider] setInstanceForClass:[NSObject class] withObject:sharedObject];
     
-    NSAssert(sharedObject,@"sharedObject cannot be nil");
+    NSAssert([[UIApplication jkl_instanceProvider] instanceForClass:[NSObject class]],@"intance cannot be nil");
     NSAssert([sharedObject isEqual:[[UIApplication jkl_instanceProvider] instanceForClass:[NSObject class]]],@"");
+    
+    [[UIApplication jkl_instanceProvider] removeInstanceForClass:[NSObject class]];
+    
+    NSAssert(![[UIApplication jkl_instanceProvider] instanceForClass:[NSObject class]],@"intance should be nil after being removed");
+    
 }
 
 @end
