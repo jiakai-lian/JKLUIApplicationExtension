@@ -12,7 +12,6 @@
 		2441BB8A55506CD3E04243D45BCD3C3F /* JKLUIApplicationExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A86F4C1822F6DFD1D557B6DD6469A56 /* JKLUIApplicationExtension-dummy.m */; };
 		2A0936A13E9BD20A22986E4BAFE11FF4 /* JKLUIApplicationExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D000970A3E844FB8897A53F847BF9274 /* JKLUIApplicationExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C53CB96357023F3360DF1933856F51A /* JKLUIApplicationExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F3372DB5C1723341EF954472FD9F98 /* JKLUIApplicationExtension.bundle */; };
-		47769BAE2FC95E3DC8CF0B7176D1D467 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957653865016EB014BA016BB37A9A7D /* ReplaceMe.m */; };
 		8CAFDDBE46CC7AB6F2312588DFF418E1 /* Pods-JKLUIApplicationExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 028D4DFB3301F21967CF520E0567A528 /* Pods-JKLUIApplicationExtension_Tests-dummy.m */; };
 		8F6DCF6D42783D02FC167CE651A8577D /* Pods-JKLUIApplicationExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38C77004C7F3412F8BF59481E519B0F /* Pods-JKLUIApplicationExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A58F20ACF8A46279D946BB0DEDFA1EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -53,7 +52,6 @@
 		420E9C55CA9776F5974BA187408736D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5120495C6085E2C1ED78426C06DF785F /* Pods-JKLUIApplicationExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKLUIApplicationExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		66B889273E8AE60EB78AEA3431C0E147 /* Pods-JKLUIApplicationExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKLUIApplicationExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6957653865016EB014BA016BB37A9A7D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		699FB802F530303310F5866F6018D9B6 /* Pods-JKLUIApplicationExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JKLUIApplicationExtension_Example.modulemap"; sourceTree = "<group>"; };
 		6A86F4C1822F6DFD1D557B6DD6469A56 /* JKLUIApplicationExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKLUIApplicationExtension-dummy.m"; sourceTree = "<group>"; };
 		84F3372DB5C1723341EF954472FD9F98 /* JKLUIApplicationExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKLUIApplicationExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,7 +239,6 @@
 		FD37F7C711601272A882CF5F58DEADE2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6957653865016EB014BA016BB37A9A7D /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -409,7 +406,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2441BB8A55506CD3E04243D45BCD3C3F /* JKLUIApplicationExtension-dummy.m in Sources */,
-				47769BAE2FC95E3DC8CF0B7176D1D467 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
