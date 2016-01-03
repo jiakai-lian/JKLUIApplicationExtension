@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JKLUIApplicationExtension_Example', :exclusive => true do
+  pod "JKLUIApplicationExtension", :path => "../"
+end
+
+target 'JKLUIApplicationExtension_Tests', :exclusive => true do
+  pod "JKLUIApplicationExtension", :path => "../"
+
+  
+end

@@ -1,0 +1,6 @@
+framework module JKLUIApplicationExtension {
+  umbrella header "JKLUIApplicationExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

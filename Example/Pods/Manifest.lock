@@ -1,0 +1,14 @@
+PODS:
+  - JKLUIApplicationExtension (0.1.0)
+
+DEPENDENCIES:
+  - JKLUIApplicationExtension (from `../`)
+
+EXTERNAL SOURCES:
+  JKLUIApplicationExtension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JKLUIApplicationExtension: bc0649d2af38a98122e05888de0a957f19dd563c
+
+COCOAPODS: 0.39.0
