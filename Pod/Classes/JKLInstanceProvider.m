@@ -39,4 +39,9 @@
     [self.dictionary removeObjectForKey:NSStringFromClass(cls)];
 }
 
+- (void)removeAllInstances
+{
+    [self.dictionary removeAllObjects];
+}
+
 @end

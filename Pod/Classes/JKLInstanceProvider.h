@@ -16,4 +16,6 @@
 - (void)setInstanceForClass:(Class)cls withObject:(id)object;
 
 - (void)removeInstanceForClass:(Class)cls;
+
+- (void)removeAllInstances;
 @end
