@@ -10,9 +10,8 @@
 
 @implementation UIApplication (JKLAppDelegate)
 
-+ (UIResponder<UIApplicationDelegate> *) jkl_appDelegate
-{
-    return [[self sharedApplication] delegate];
++ (UIResponder<UIApplicationDelegate> *)jkl_appDelegate {
+  return [[self sharedApplication] delegate];
 }
 
 @end

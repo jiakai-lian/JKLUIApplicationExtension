@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface JKLInstanceProvider : NSObject
 
 - (id)instanceForClass:(Class)cls;

@@ -10,6 +10,6 @@
 
 @interface UIApplication (JKLAppDelegate)
 
-+ (UIResponder<UIApplicationDelegate> *) jkl_appDelegate;
++ (UIResponder<UIApplicationDelegate> *)jkl_appDelegate;
 
 @end
